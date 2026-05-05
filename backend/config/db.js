@@ -1,8 +1,8 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: "",
+    password: "180705",
     database: 'library_management'
 });
 db.connect((err) => {
